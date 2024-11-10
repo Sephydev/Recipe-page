@@ -73,3 +73,9 @@ h2 {
 .ingredients {
     margin-bottom: 1.5rem;
 }
+
+hr {
+    margin: 2rem 0;
+    border: 1px solid hsl(30, 18%, 87%);
+    border-bottom: none;
+}
