@@ -87,3 +87,7 @@ ol li::marker {
     color: hsl(14, 45%, 36%);
     font-weight: 600;
 }
+
+.nutrition p {
+    margin-right: 0.5rem;
+}
