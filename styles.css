@@ -35,3 +35,15 @@ h1 {
     margin-bottom: 1.5rem;
     color: hsl(24, 5%, 18%);
 }
+
+.prepa-container {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.prepa {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
