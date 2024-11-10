@@ -25,7 +25,7 @@ img {
 }
 
 main {
-    padding: 2rem 1.85rem;
+    padding: 2rem 1.75rem;
 }
 
 h1 {
@@ -35,6 +35,10 @@ h1 {
     margin-bottom: 1.5rem;
     color: hsl(24, 5%, 18%);
     font-size: 2.25rem;
+}
+
+p {
+    padding-right: 0.3rem;
 }
 
 .prepa-container {
@@ -49,10 +53,11 @@ h1 {
     color: hsl(332, 51%, 32%);
     font-weight: 500;
     margin-top: 0;
+    margin-bottom: 1rem;
     font-size: 1.35rem;
 }
 
-ul {
+ul, ol {
     margin: 1rem 0 0;
     padding-left: 1.5rem;
 }
@@ -67,15 +72,18 @@ h2 {
     color: hsl(14, 45%, 36%);
     font-weight: 500;
     margin-top: 2rem;
-    font-size: 1.75rem;
-}
-
-.ingredients {
     margin-bottom: 1.5rem;
+    font-size: 1.75rem;
 }
 
 hr {
     margin: 2rem 0;
     border: 1px solid hsl(30, 18%, 87%);
     border-bottom: none;
+}
+
+ol li::marker {
+    font-family: Outfit;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
 }
