@@ -91,3 +91,30 @@ ol li::marker {
 .nutrition p {
     margin-right: 0.5rem;
 }
+
+table {
+    margin-top: 1.5rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%)
+}
+
+th {
+    text-align: left;
+    font-weight: 400;
+    padding: 0.75rem 0;
+    padding-left: 2rem;
+    width: 51%;
+}
+
+td {
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
+
+.last-line {
+    border: none;
+}
