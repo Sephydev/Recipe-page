@@ -18,6 +18,7 @@ body {
     line-height: 1.5rem;
     font-size: 1rem;
     color: hsl(30, 10%, 34%);
+    background-color: hsl(30, 54%, 90%);
 }
 
 img {
@@ -117,4 +118,27 @@ td {
 
 .last-line {
     border: none;
+}
+
+div {
+    max-width: 745px;
+    margin: 0 auto;
+    border-radius: 1.5rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+@media screen and (min-width: 745px) {
+    div {
+        max-width: 745px;
+        padding: 2.5rem;
+        margin: 7.5rem auto;
+    }
+
+    img {
+        border-radius: 1rem;
+    }
+    
+    main {
+        padding: 2rem 0;
+    }
 }
